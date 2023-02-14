@@ -42,7 +42,7 @@ const Checkout = () => {
 
     return (
         <Box background="gray.50" flex="1">
-            <h1>why do u want this product??</h1>
+            <h1>why do u want this product?? </h1>
             <Container
                 data-testid="sf-checkout-container"
                 maxWidth="container.xl"

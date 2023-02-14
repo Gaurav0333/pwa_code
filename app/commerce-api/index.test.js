@@ -39,6 +39,7 @@ const getAPI = () => new CommerceAPI(apiConfig)
 jest.mock('commerce-sdk-isomorphic', () => {
     const sdk = jest.requireActual('commerce-sdk-isomorphic')
     return {
+        
         ...sdk,
         ShopperProducts: class ShopperProductsMock extends sdk.ShopperProducts {
             async getProduct(args) {
